@@ -1,0 +1,7 @@
+postgres=# CREATE ROLE Director WITH LOGIN PASSWORD '12345';   
+CREATE ROLE
+postgres=# CREATE ROLE Manager WITH LOGIN PASSWORD '67890';   //fl = 1
+CREATE ROLE
+postgres=# CREATE ROLE Worker WITH LOGIN PASSWORD '10293';    // fl = 2
+CREATE ROLE
+Server=localhost; port=5432; user id =postgres; password=P_yuriko2000; database=tr_bea_a_10_20;
